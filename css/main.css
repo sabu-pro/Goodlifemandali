@@ -2199,14 +2199,6 @@ input::-moz-focus-inner {
   position: relative;
 }
 
-.social-list--youtube {
-  background: url('path-to-your-youtube-icon.png') no-repeat center;
-  background-size: cover;
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-}
-
 
 .hero-social__title::after {
   display: block;
@@ -3030,6 +3022,18 @@ html.no-csstransitions .hero-content {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+footer {
+  background-color: #000; /* Optional: black or dark background */
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 14px;
+  color: #fff; /* White text */
 }
 
 .social-list__icon {
